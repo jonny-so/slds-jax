@@ -1,5 +1,5 @@
 # slds-jax
-Various inference routines for switching linear dynamical system (SLDS) models, implemented in JAX (work in progress).
+Inference routines for switching linear dynamical system (SLDS) models in JAX.
 
 ## Example usage
 
@@ -32,7 +32,7 @@ The plot below shows the inferred posteriors using VI and EP on a toy problem, o
 * Expectation propagation (EP) [2,3]
 
 ## What's missing
-1. (generalised) EM learning
+1. parameter learning
 2. double-loop EP [3]
 3. expectation correction [4]
 4. block gibbs sampling
