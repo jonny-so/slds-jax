@@ -36,11 +36,13 @@ The plot below shows the inferred posteriors using VI and EP on a toy problem, o
 2. double-loop EP [3]
 3. expectation correction [4]
 4. block gibbs sampling
-5. ...
+5. Pólya-gamma augmented sampling [5]
+6. ...
 
 ## References
 [1] Zoubin Ghahramani and Geoffrey Hinton. _Variational Learning for Switching State-Space Models_. Neural computation (2000) \
 [2] Tom Minka. _A family of algorithms for approximate Bayesian inference_. PhD thesis, MIT (2001) \
 [3] Tom Heskes and Onno Zoeter. _Expectation propagation for approximate inference in dynamic bayesian networks_. UAI (2002) \
-[4] David Barber. _Expectation Correction for Smoothed Inference in Switching Linear Dynamical Systems_. Journal of Machine Learning Research (2006)
+[4] David Barber. _Expectation Correction for Smoothed Inference in Switching Linear Dynamical Systems_. Journal of Machine Learning Research (2006) \
+[5] Scott Linderman et al. _Bayesian Learning and Inference in Recurrent Switching Linear Dynamical Systems_. AISTATS (2017)
 
