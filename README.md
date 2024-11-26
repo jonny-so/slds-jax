@@ -23,7 +23,7 @@ continuous_mean = vmap(gaussian_mean)(continuous_marginals[0])
 See [this notebook](./notebooks/slds.ipynb) for more complete examples.
 
 ## Results
-The plot below shows the inferred posteriors using VI and EP on a toy problem, overlaid with the ground truth states and observations. The ground truth model has 3 discrete states governing the continuous dynamics. VI tends to be overconfident in its inference even when it is wrong, whereas EP typically has better calibrated uncertainties. The flipside of this is that EP can be very unstable, requiring significant damping, and even then may diverge. VI on the other hand is guaranteed to converge, and typically does so in a small number of iterations.
+The plot below shows the inferred posteriors using VI and EP on a toy problem, overlaid with the ground truth states and observations. The ground truth model has 3 discrete states governing the continuous dynamics. VI tends to be overconfident in its inference even when it is wrong, whereas EP typically has better calibrated uncertainties. The flipside of this is that EP can be very unstable, often requiring significant damping, and even then may sometimes fail. VI on the other hand is guaranteed to converge, and typically does so in a small number of iterations.
 
 ![SLDS inference example](./notebooks/images/slds_plot.png)
 
